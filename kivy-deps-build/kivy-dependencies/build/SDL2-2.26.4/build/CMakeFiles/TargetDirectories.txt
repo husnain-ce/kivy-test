@@ -1,0 +1,12 @@
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2-2.26.4/build/CMakeFiles/sdl_headers_copy.dir
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2-2.26.4/build/CMakeFiles/SDL2main.dir
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2-2.26.4/build/CMakeFiles/SDL2.dir
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2-2.26.4/build/CMakeFiles/SDL2-static.dir
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2-2.26.4/build/CMakeFiles/SDL2_test.dir
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2-2.26.4/build/CMakeFiles/uninstall.dir
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2-2.26.4/build/CMakeFiles/edit_cache.dir
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2-2.26.4/build/CMakeFiles/rebuild_cache.dir
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2-2.26.4/build/CMakeFiles/list_install_components.dir
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2-2.26.4/build/CMakeFiles/install.dir
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2-2.26.4/build/CMakeFiles/install/local.dir
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2-2.26.4/build/CMakeFiles/install/strip.dir

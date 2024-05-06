@@ -1,0 +1,490 @@
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-jnTnk2
+
+Run Build Command(s):/usr/bin/ninja cmTC_dfe4f && [1/2] Building C object CMakeFiles/cmTC_dfe4f.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_dfe4f.dir/CheckIncludeFile.c.o 
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing  -fPIE -o CMakeFiles/cmTC_dfe4f.dir/CheckIncludeFile.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-jnTnk2/CheckIncludeFile.c
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-jnTnk2/CheckIncludeFile.c:1:10: fatal error: io.h: No such file or directory
+    1 | #include <io.h>
+      |          ^~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the setmode exist failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-yPfaPq
+
+Run Build Command(s):/usr/bin/ninja cmTC_4ab2a && [1/2] Building C object CMakeFiles/cmTC_4ab2a.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_4ab2a.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing  -fPIE -o CMakeFiles/cmTC_4ab2a.dir/CheckSymbolExists.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-yPfaPq/CheckSymbolExists.c
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-yPfaPq/CheckSymbolExists.c: In function ‘main’:
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-yPfaPq/CheckSymbolExists.c:8:19: error: ‘setmode’ undeclared (first use in this function)
+    8 |   return ((int*)(&setmode))[argc];
+      |                   ^~~~~~~
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-yPfaPq/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-yPfaPq/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+    4 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+ninja: build stopped: subcommand failed.
+
+
+File CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setmode
+  return ((int*)(&setmode))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the jbg_newlen exist failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-UZ4Bs9
+
+Run Build Command(s):/usr/bin/ninja cmTC_2ef8a && [1/2] Building C object CMakeFiles/cmTC_2ef8a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2ef8a
+FAILED: cmTC_2ef8a 
+: && /usr/bin/cc -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -rdynamic CMakeFiles/cmTC_2ef8a.dir/CheckSymbolExists.c.o -o cmTC_2ef8a   && :
+/usr/bin/ld: CMakeFiles/cmTC_2ef8a.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `jbg_newlen'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+File CheckSymbolExists.c:
+/* */
+#include <jbig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef jbg_newlen
+  return ((int*)(&jbg_newlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file GL/glu.h exists failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-C2MISy
+
+Run Build Command(s):/usr/bin/ninja cmTC_667f6 && [1/2] Building C object CMakeFiles/cmTC_667f6.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_667f6.dir/CheckIncludeFile.c.o 
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing  -fPIE -o CMakeFiles/cmTC_667f6.dir/CheckIncludeFile.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-C2MISy/CheckIncludeFile.c
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-C2MISy/CheckIncludeFile.c:1:10: fatal error: GL/glu.h: No such file or directory
+    1 | #include <GL/glu.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file GL/glut.h exists failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-jSROCh
+
+Run Build Command(s):/usr/bin/ninja cmTC_724e7 && [1/2] Building C object CMakeFiles/cmTC_724e7.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_724e7.dir/CheckIncludeFile.c.o 
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing  -fPIE -o CMakeFiles/cmTC_724e7.dir/CheckIncludeFile.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-jSROCh/CheckIncludeFile.c
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-jSROCh/CheckIncludeFile.c:1:10: fatal error: GL/glut.h: No such file or directory
+    1 | #include <GL/glut.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file GLUT/glut.h exists failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-REsdpj
+
+Run Build Command(s):/usr/bin/ninja cmTC_40faa && [1/2] Building C object CMakeFiles/cmTC_40faa.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_40faa.dir/CheckIncludeFile.c.o 
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing  -fPIE -o CMakeFiles/cmTC_40faa.dir/CheckIncludeFile.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-REsdpj/CheckIncludeFile.c
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-REsdpj/CheckIncludeFile.c:1:10: fatal error: GLUT/glut.h: No such file or directory
+    1 | #include <GLUT/glut.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file OpenGL/gl.h exists failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-5RjgDR
+
+Run Build Command(s):/usr/bin/ninja cmTC_fbc0d && [1/2] Building C object CMakeFiles/cmTC_fbc0d.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_fbc0d.dir/CheckIncludeFile.c.o 
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing  -fPIE -o CMakeFiles/cmTC_fbc0d.dir/CheckIncludeFile.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-5RjgDR/CheckIncludeFile.c
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-5RjgDR/CheckIncludeFile.c:1:10: fatal error: OpenGL/gl.h: No such file or directory
+    1 | #include <OpenGL/gl.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file OpenGL/glu.h exists failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-wz1PLs
+
+Run Build Command(s):/usr/bin/ninja cmTC_11135 && [1/2] Building C object CMakeFiles/cmTC_11135.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_11135.dir/CheckIncludeFile.c.o 
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing  -fPIE -o CMakeFiles/cmTC_11135.dir/CheckIncludeFile.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-wz1PLs/CheckIncludeFile.c
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-wz1PLs/CheckIncludeFile.c:1:10: fatal error: OpenGL/glu.h: No such file or directory
+    1 | #include <OpenGL/glu.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test HAVE_MATH_LIBRARY failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-0AYBp9
+
+Run Build Command(s):/usr/bin/ninja cmTC_f38a9 && [1/2] Building C object CMakeFiles/cmTC_f38a9.dir/src.c.o
+[2/2] Linking C executable cmTC_f38a9
+FAILED: cmTC_f38a9 
+: && /usr/bin/cc -pthread  CMakeFiles/cmTC_f38a9.dir/src.c.o -o cmTC_f38a9   && :
+/usr/bin/ld: CMakeFiles/cmTC_f38a9.dir/src.c.o: in function `main':
+src.c:(.text+0x2f): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+    #include <math.h>
+    int main(int argc, char** argv) {
+      return (int)pow(argc, 2.5);
+    }
+  
+
+Determining if files OpenGL/glut.h exist failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-T9xiUz
+
+Run Build Command(s):/usr/bin/ninja cmTC_a116c && [1/2] Building C object CMakeFiles/cmTC_a116c.dir/HAVE_OPENGL_GLUT_H.c.o
+FAILED: CMakeFiles/cmTC_a116c.dir/HAVE_OPENGL_GLUT_H.c.o 
+/usr/bin/cc   -pthread  -fPIE -o CMakeFiles/cmTC_a116c.dir/HAVE_OPENGL_GLUT_H.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-T9xiUz/HAVE_OPENGL_GLUT_H.c
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-T9xiUz/HAVE_OPENGL_GLUT_H.c:2:10: fatal error: OpenGL/glut.h: No such file or directory
+    2 | #include <OpenGL/glut.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <OpenGL/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files shlwapi.h exist failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-WgKlxw
+
+Run Build Command(s):/usr/bin/ninja cmTC_51155 && [1/2] Building C object CMakeFiles/cmTC_51155.dir/HAVE_SHLWAPI_H.c.o
+FAILED: CMakeFiles/cmTC_51155.dir/HAVE_SHLWAPI_H.c.o 
+/usr/bin/cc   -pthread  -fPIE -o CMakeFiles/cmTC_51155.dir/HAVE_SHLWAPI_H.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-WgKlxw/HAVE_SHLWAPI_H.c
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-WgKlxw/HAVE_SHLWAPI_H.c:2:10: fatal error: shlwapi.h: No such file or directory
+    2 | #include <shlwapi.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <shlwapi.h>
+
+
+int main(void){return 0;}
+
+Determining if files wincodec.h exist failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-wLn35s
+
+Run Build Command(s):/usr/bin/ninja cmTC_f121e && [1/2] Building C object CMakeFiles/cmTC_f121e.dir/HAVE_WINCODEC_H.c.o
+FAILED: CMakeFiles/cmTC_f121e.dir/HAVE_WINCODEC_H.c.o 
+/usr/bin/cc   -pthread  -fPIE -o CMakeFiles/cmTC_f121e.dir/HAVE_WINCODEC_H.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-wLn35s/HAVE_WINCODEC_H.c
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-wLn35s/HAVE_WINCODEC_H.c:2:10: fatal error: wincodec.h: No such file or directory
+    2 | #include <wincodec.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <wincodec.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h exist failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-7QGLtK
+
+Run Build Command(s):/usr/bin/ninja cmTC_0c870 && [1/2] Building C object CMakeFiles/cmTC_0c870.dir/HAVE_WINDOWS_H.c.o
+FAILED: CMakeFiles/cmTC_0c870.dir/HAVE_WINDOWS_H.c.o 
+/usr/bin/cc   -pthread  -fPIE -o CMakeFiles/cmTC_0c870.dir/HAVE_WINDOWS_H.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-7QGLtK/HAVE_WINDOWS_H.c
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-7QGLtK/HAVE_WINDOWS_H.c:2:10: fatal error: windows.h: No such file or directory
+    2 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-LULdeK
+
+Run Build Command(s):/usr/bin/ninja cmTC_aba56 && [1/2] Building C object CMakeFiles/cmTC_aba56.dir/src.c.o
+FAILED: CMakeFiles/cmTC_aba56.dir/src.c.o 
+/usr/bin/cc -DWEBP_HAVE_FLAG_SSE41 -I/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/external/libwebp -pthread  -fPIE -o CMakeFiles/cmTC_aba56.dir/src.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-LULdeK/src.c
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-LULdeK/src.c: In function ‘main’:
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-LULdeK/src.c:5:9: error: unknown type name ‘this’
+    5 |         this is not valid code
+      |         ^~~~
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-LULdeK/src.c:5:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘not’
+    5 |         this is not valid code
+      |                 ^~~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/external/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS32 failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-V4cjIG
+
+Run Build Command(s):/usr/bin/ninja cmTC_16233 && [1/2] Building C object CMakeFiles/cmTC_16233.dir/src.c.o
+FAILED: CMakeFiles/cmTC_16233.dir/src.c.o 
+/usr/bin/cc -DWEBP_HAVE_FLAG_MIPS32 -I/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/external/libwebp -pthread  -fPIE -o CMakeFiles/cmTC_16233.dir/src.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-V4cjIG/src.c
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-V4cjIG/src.c: In function ‘main’:
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-V4cjIG/src.c:5:9: error: unknown type name ‘this’
+    5 |         this is not valid code
+      |         ^~~~
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-V4cjIG/src.c:5:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘not’
+    5 |         this is not valid code
+      |                 ^~~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/external/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS32)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS32 failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-JazYhy
+
+Run Build Command(s):/usr/bin/ninja cmTC_b301a && [1/2] Building C object CMakeFiles/cmTC_b301a.dir/src.c.o
+FAILED: CMakeFiles/cmTC_b301a.dir/src.c.o 
+/usr/bin/cc -DWEBP_HAVE_FLAG_MIPS32 -I/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/external/libwebp -pthread -mips32 -fPIE -o CMakeFiles/cmTC_b301a.dir/src.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-JazYhy/src.c
+cc: error: unrecognized command-line option ‘-mips32’; did you mean ‘-mpc32’?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/external/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS32)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS_DSP_R2 failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-LkIcVz
+
+Run Build Command(s):/usr/bin/ninja cmTC_a2a61 && [1/2] Building C object CMakeFiles/cmTC_a2a61.dir/src.c.o
+FAILED: CMakeFiles/cmTC_a2a61.dir/src.c.o 
+/usr/bin/cc -DWEBP_HAVE_FLAG_MIPS_DSP_R2 -I/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/external/libwebp -pthread  -fPIE -o CMakeFiles/cmTC_a2a61.dir/src.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-LkIcVz/src.c
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-LkIcVz/src.c: In function ‘main’:
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-LkIcVz/src.c:5:9: error: unknown type name ‘this’
+    5 |         this is not valid code
+      |         ^~~~
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-LkIcVz/src.c:5:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘not’
+    5 |         this is not valid code
+      |                 ^~~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/external/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS_DSP_R2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS_DSP_R2 failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-PZCGgg
+
+Run Build Command(s):/usr/bin/ninja cmTC_202bb && [1/2] Building C object CMakeFiles/cmTC_202bb.dir/src.c.o
+FAILED: CMakeFiles/cmTC_202bb.dir/src.c.o 
+/usr/bin/cc -DWEBP_HAVE_FLAG_MIPS_DSP_R2 -I/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/external/libwebp -pthread -mdspr2 -fPIE -o CMakeFiles/cmTC_202bb.dir/src.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-PZCGgg/src.c
+cc: error: unrecognized command-line option ‘-mdspr2’
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/external/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS_DSP_R2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+
+Performing C SOURCE FILE Test HAS_COMPILE_FLAG failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-sFMUDw
+
+Run Build Command(s):/usr/bin/ninja cmTC_f5ddb && [1/2] Building C object CMakeFiles/cmTC_f5ddb.dir/src.c.o
+FAILED: CMakeFiles/cmTC_f5ddb.dir/src.c.o 
+/usr/bin/cc -DHAS_COMPILE_FLAG  -pthread -mdspr2 -fPIE   -mno-dspr2 -o CMakeFiles/cmTC_f5ddb.dir/src.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-sFMUDw/src.c
+cc: error: unrecognized command-line option '-mdspr2'
+cc: error: unrecognized command-line option '-mno-dspr2'; did you mean '-mno-sse2'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_NEON failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-D0tyzw
+
+Run Build Command(s):/usr/bin/ninja cmTC_7c528 && [1/2] Building C object CMakeFiles/cmTC_7c528.dir/src.c.o
+FAILED: CMakeFiles/cmTC_7c528.dir/src.c.o 
+/usr/bin/cc -DWEBP_HAVE_FLAG_NEON -I/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/external/libwebp -pthread  -fPIE -o CMakeFiles/cmTC_7c528.dir/src.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-D0tyzw/src.c
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-D0tyzw/src.c: In function ‘main’:
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-D0tyzw/src.c:5:9: error: unknown type name ‘this’
+    5 |         this is not valid code
+      |         ^~~~
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-D0tyzw/src.c:5:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘not’
+    5 |         this is not valid code
+      |                 ^~~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/external/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_NEON)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_NEON failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-J9X1Oo
+
+Run Build Command(s):/usr/bin/ninja cmTC_9136b && [1/2] Building C object CMakeFiles/cmTC_9136b.dir/src.c.o
+FAILED: CMakeFiles/cmTC_9136b.dir/src.c.o 
+/usr/bin/cc -DWEBP_HAVE_FLAG_NEON -I/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/external/libwebp -pthread -mfpu=neon -fPIE -o CMakeFiles/cmTC_9136b.dir/src.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-J9X1Oo/src.c
+cc: error: unrecognized command-line option ‘-mfpu=neon’
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/external/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_NEON)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MSA failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-eaJv5p
+
+Run Build Command(s):/usr/bin/ninja cmTC_38bc2 && [1/2] Building C object CMakeFiles/cmTC_38bc2.dir/src.c.o
+FAILED: CMakeFiles/cmTC_38bc2.dir/src.c.o 
+/usr/bin/cc -DWEBP_HAVE_FLAG_MSA -I/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/external/libwebp -pthread  -fPIE -o CMakeFiles/cmTC_38bc2.dir/src.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-eaJv5p/src.c
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-eaJv5p/src.c: In function ‘main’:
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-eaJv5p/src.c:5:9: error: unknown type name ‘this’
+    5 |         this is not valid code
+      |         ^~~~
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-eaJv5p/src.c:5:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘not’
+    5 |         this is not valid code
+      |                 ^~~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/external/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MSA)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MSA failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-wyVMVK
+
+Run Build Command(s):/usr/bin/ninja cmTC_d7fe6 && [1/2] Building C object CMakeFiles/cmTC_d7fe6.dir/src.c.o
+FAILED: CMakeFiles/cmTC_d7fe6.dir/src.c.o 
+/usr/bin/cc -DWEBP_HAVE_FLAG_MSA -I/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/external/libwebp -pthread -mmsa -fPIE -o CMakeFiles/cmTC_d7fe6.dir/src.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-wyVMVK/src.c
+cc: error: unrecognized command-line option ‘-mmsa’
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/external/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MSA)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+
+Performing C SOURCE FILE Test HAS_COMPILE_FLAG failed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-dqGr7J
+
+Run Build Command(s):/usr/bin/ninja cmTC_6f97b && [1/2] Building C object CMakeFiles/cmTC_6f97b.dir/src.c.o
+FAILED: CMakeFiles/cmTC_6f97b.dir/src.c.o 
+/usr/bin/cc -DHAS_COMPILE_FLAG  -pthread -mmsa -fPIE   -mno-msa -o CMakeFiles/cmTC_6f97b.dir/src.c.o -c /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_image-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-dqGr7J/src.c
+cc: error: unrecognized command-line option '-mmsa'
+cc: error: unrecognized command-line option '-mno-msa'; did you mean '-Wno-hsa'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+

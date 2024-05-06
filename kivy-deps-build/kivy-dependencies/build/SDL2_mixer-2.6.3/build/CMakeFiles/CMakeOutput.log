@@ -1,0 +1,1144 @@
+The system is: Linux - 6.1.0-kali5-amd64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/3.25.1/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-bXBqh4
+
+Run Build Command(s):/usr/bin/ninja cmTC_40607 && [1/2] Building C object CMakeFiles/cmTC_40607.dir/CMakeCCompilerABI.c.o
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_40607.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40607.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_40607.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fPIE -fasynchronous-unwind-tables -o /tmp/cclDqRlv.s
+GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: cc72d2b9b5048fedc2be9051c917b40b
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_40607.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40607.dir/'
+ as -v --64 -o CMakeFiles/cmTC_40607.dir/CMakeCCompilerABI.c.o /tmp/cclDqRlv.s
+GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_40607.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40607.dir/CMakeCCompilerABI.c.'
+[2/2] Linking C executable cmTC_40607
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_40607' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_40607.'
+ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cceG2v1p.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_40607 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_40607.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_40607' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_40607.'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/12/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/12/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-bXBqh4]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_40607 && [1/2] Building C object CMakeFiles/cmTC_40607.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_40607.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40607.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_40607.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fPIE -fasynchronous-unwind-tables -o /tmp/cclDqRlv.s]
+  ignore line: [GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: cc72d2b9b5048fedc2be9051c917b40b]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_40607.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40607.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_40607.dir/CMakeCCompilerABI.c.o /tmp/cclDqRlv.s]
+  ignore line: [GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_40607.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40607.dir/CMakeCCompilerABI.c.']
+  ignore line: [[2/2] Linking C executable cmTC_40607]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_40607' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_40607.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cceG2v1p.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_40607 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_40607.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cceG2v1p.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_40607] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_40607.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/12;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the fork exist passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-rjLlqD
+
+Run Build Command(s):/usr/bin/ninja cmTC_04746 && [1/2] Building C object CMakeFiles/cmTC_04746.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_04746
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fork
+  return ((int*)(&fork))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/3.25.1/CompilerIdCXX/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-OgIjMb
+
+Run Build Command(s):/usr/bin/ninja cmTC_407cc && [1/2] Building CXX object CMakeFiles/cmTC_407cc.dir/CMakeCXXCompilerABI.cpp.o
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_407cc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_407cc.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_407cc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fPIE -fasynchronous-unwind-tables -o /tmp/ccNMmnbu.s
+GNU C++17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/12"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/12
+ /usr/include/x86_64-linux-gnu/c++/12
+ /usr/include/c++/12/backward
+ /usr/lib/gcc/x86_64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 62b090dbbefa50644117a3c13d47369a
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_407cc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_407cc.dir/'
+ as -v --64 -o CMakeFiles/cmTC_407cc.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccNMmnbu.s
+GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_407cc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_407cc.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX executable cmTC_407cc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_407cc' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_407cc.'
+ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccc1ZJKu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_407cc /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_407cc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_407cc' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_407cc.'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/12]
+    add: [/usr/include/x86_64-linux-gnu/c++/12]
+    add: [/usr/include/c++/12/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/12] ==> [/usr/include/c++/12]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/12] ==> [/usr/include/x86_64-linux-gnu/c++/12]
+  collapse include dir [/usr/include/c++/12/backward] ==> [/usr/include/c++/12/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/12/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/12;/usr/include/x86_64-linux-gnu/c++/12;/usr/include/c++/12/backward;/usr/lib/gcc/x86_64-linux-gnu/12/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-OgIjMb]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_407cc && [1/2] Building CXX object CMakeFiles/cmTC_407cc.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_407cc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_407cc.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_407cc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fPIE -fasynchronous-unwind-tables -o /tmp/ccNMmnbu.s]
+  ignore line: [GNU C++17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/12"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/12]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/12]
+  ignore line: [ /usr/include/c++/12/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 62b090dbbefa50644117a3c13d47369a]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_407cc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_407cc.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_407cc.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccNMmnbu.s]
+  ignore line: [GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_407cc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_407cc.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [[2/2] Linking CXX executable cmTC_407cc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_407cc' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_407cc.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccc1ZJKu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_407cc /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_407cc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccc1ZJKu.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_407cc] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_407cc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/12;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-FKy7B3
+
+Run Build Command(s):/usr/bin/ninja cmTC_f12f3 && [1/2] Building C object CMakeFiles/cmTC_f12f3.dir/INCLUDE_INTTYPES_H.c.o
+[2/2] Linking C executable cmTC_f12f3
+
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-aPro1k
+
+Run Build Command(s):/usr/bin/ninja cmTC_b9f1b && [1/2] Building C object CMakeFiles/cmTC_b9f1b.dir/INCLUDE_STDINT_H.c.o
+[2/2] Linking C executable cmTC_b9f1b
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-Hes5e7
+
+Run Build Command(s):/usr/bin/ninja cmTC_0d1a1 && [1/2] Building C object CMakeFiles/cmTC_0d1a1.dir/INCLUDE_SYS_TYPES_H.c.o
+[2/2] Linking C executable cmTC_0d1a1
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-Kq8fXJ
+
+Run Build Command(s):/usr/bin/ninja cmTC_c1c7f && [1/2] Building C object CMakeFiles/cmTC_c1c7f.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c1c7f
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-1egHfE
+
+Run Build Command(s):/usr/bin/ninja cmTC_ddbb1 && [1/2] Building C object CMakeFiles/cmTC_ddbb1.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_ddbb1
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-iINqO4
+
+Run Build Command(s):/usr/bin/ninja cmTC_db1b1 && [1/2] Building C object CMakeFiles/cmTC_db1b1.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_db1b1
+
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-DfCiwX
+
+Run Build Command(s):/usr/bin/ninja cmTC_8f04a && [1/2] Building C object CMakeFiles/cmTC_8f04a.dir/INT16_SIZE.c.o
+[2/2] Linking C executable cmTC_8f04a
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-Qi8Iox
+
+Run Build Command(s):/usr/bin/ninja cmTC_8ee7e && [1/2] Building C object CMakeFiles/cmTC_8ee7e.dir/UINT16_SIZE.c.o
+[2/2] Linking C executable cmTC_8ee7e
+
+
+
+Determining size of u_int16_t passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-3lI1LI
+
+Run Build Command(s):/usr/bin/ninja cmTC_f0554 && [1/2] Building C object CMakeFiles/cmTC_f0554.dir/U_INT16_SIZE.c.o
+[2/2] Linking C executable cmTC_f0554
+
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-S3m5uF
+
+Run Build Command(s):/usr/bin/ninja cmTC_b8986 && [1/2] Building C object CMakeFiles/cmTC_b8986.dir/INT32_SIZE.c.o
+[2/2] Linking C executable cmTC_b8986
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-0io4zw
+
+Run Build Command(s):/usr/bin/ninja cmTC_a326f && [1/2] Building C object CMakeFiles/cmTC_a326f.dir/UINT32_SIZE.c.o
+[2/2] Linking C executable cmTC_a326f
+
+
+
+Determining size of u_int32_t passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-w1DISk
+
+Run Build Command(s):/usr/bin/ninja cmTC_6ac22 && [1/2] Building C object CMakeFiles/cmTC_6ac22.dir/U_INT32_SIZE.c.o
+[2/2] Linking C executable cmTC_6ac22
+
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-Lhb0Z5
+
+Run Build Command(s):/usr/bin/ninja cmTC_06794 && [1/2] Building C object CMakeFiles/cmTC_06794.dir/INT64_SIZE.c.o
+[2/2] Linking C executable cmTC_06794
+
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-RDFUJx
+
+Run Build Command(s):/usr/bin/ninja cmTC_d0459 && [1/2] Building C object CMakeFiles/cmTC_d0459.dir/SHORT_SIZE.c.o
+[2/2] Linking C executable cmTC_d0459
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-AtEtsL
+
+Run Build Command(s):/usr/bin/ninja cmTC_e416a && [1/2] Building C object CMakeFiles/cmTC_e416a.dir/INT_SIZE.c.o
+[2/2] Linking C executable cmTC_e416a
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-1obYuW
+
+Run Build Command(s):/usr/bin/ninja cmTC_b0c74 && [1/2] Building C object CMakeFiles/cmTC_b0c74.dir/LONG_SIZE.c.o
+[2/2] Linking C executable cmTC_b0c74
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-9INZtG
+
+Run Build Command(s):/usr/bin/ninja cmTC_807a2 && [1/2] Building C object CMakeFiles/cmTC_807a2.dir/LONG_LONG_SIZE.c.o
+[2/2] Linking C executable cmTC_807a2
+
+
+
+Determining if the function floor exists in the m passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-hpznB7
+
+Run Build Command(s):/usr/bin/ninja cmTC_b8d6f && [1/2] Building C object CMakeFiles/cmTC_b8d6f.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function ‘floor’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-hpznB7/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-hpznB7/CheckFunctionExists.c:1:1: note: ‘floor’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+[2/2] Linking C executable cmTC_b8d6f
+
+
+
+Determining if the function lrintf exists in the m passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-xykp6Q
+
+Run Build Command(s):/usr/bin/ninja cmTC_ac384 && [1/2] Building C object CMakeFiles/cmTC_ac384.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function ‘lrintf’; expected ‘long int(float)’ [-Wbuiltin-declaration-mismatch]
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-xykp6Q/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-xykp6Q/CheckFunctionExists.c:1:1: note: ‘lrintf’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+[2/2] Linking C executable cmTC_ac384
+
+
+
+Determining if the function lrint exists in the m passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-xR2gkX
+
+Run Build Command(s):/usr/bin/ninja cmTC_b8e21 && [1/2] Building C object CMakeFiles/cmTC_b8e21.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function ‘lrint’; expected ‘long int(double)’ [-Wbuiltin-declaration-mismatch]
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-xR2gkX/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-xR2gkX/CheckFunctionExists.c:1:1: note: ‘lrint’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+[2/2] Linking C executable cmTC_b8e21
+
+
+
+Determining if the include file cpuid.h exists passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-WuBvdA
+
+Run Build Command(s):/usr/bin/ninja cmTC_4a818 && [1/2] Building C object CMakeFiles/cmTC_4a818.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4a818
+
+
+
+Determining if the include file xmmintrin.h exists passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-zoYgSl
+
+Run Build Command(s):/usr/bin/ninja cmTC_0c88b && [1/2] Building C object CMakeFiles/cmTC_0c88b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_0c88b
+
+
+
+Performing C SOURCE FILE Test SSE1_SUPPORTED succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-CM34g7
+
+Run Build Command(s):/usr/bin/ninja cmTC_01193 && [1/2] Building C object CMakeFiles/cmTC_01193.dir/src.c.o
+[2/2] Linking C executable cmTC_01193
+
+
+Source file was:
+int main(void) { return 0; }
+
+Determining if the include file emmintrin.h exists passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-pKQyxq
+
+Run Build Command(s):/usr/bin/ninja cmTC_83560 && [1/2] Building C object CMakeFiles/cmTC_83560.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_83560
+
+
+
+Performing C SOURCE FILE Test SSE2_SUPPORTED succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-RqmPHo
+
+Run Build Command(s):/usr/bin/ninja cmTC_300c9 && [1/2] Building C object CMakeFiles/cmTC_300c9.dir/src.c.o
+[2/2] Linking C executable cmTC_300c9
+
+
+Source file was:
+int main(void) { return 0; }
+
+Determining if the include file smmintrin.h exists passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-pr7Toh
+
+Run Build Command(s):/usr/bin/ninja cmTC_ac79a && [1/2] Building C object CMakeFiles/cmTC_ac79a.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_ac79a
+
+
+
+Performing C SOURCE FILE Test SSE4_1_SUPPORTED succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-mCGbLO
+
+Run Build Command(s):/usr/bin/ninja cmTC_1b501 && [1/2] Building C object CMakeFiles/cmTC_1b501.dir/src.c.o
+[2/2] Linking C executable cmTC_1b501
+
+
+Source file was:
+int main(void) { return 0; }
+
+Determining if the include file immintrin.h exists passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-PyqP55
+
+Run Build Command(s):/usr/bin/ninja cmTC_82b58 && [1/2] Building C object CMakeFiles/cmTC_82b58.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_82b58
+
+
+
+Performing C SOURCE FILE Test AVX_SUPPORTED succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-Wj4Olw
+
+Run Build Command(s):/usr/bin/ninja cmTC_9e656 && [1/2] Building C object CMakeFiles/cmTC_9e656.dir/src.c.o
+[2/2] Linking C executable cmTC_9e656
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test STACK_PROTECTION_STRONG_SUPPORTED succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-88EAoo
+
+Run Build Command(s):/usr/bin/ninja cmTC_03401 && [1/2] Building C object CMakeFiles/cmTC_03401.dir/src.c.o
+[2/2] Linking C executable cmTC_03401
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-CYkI3p
+
+Run Build Command(s):/usr/bin/ninja cmTC_72d45 && [1/2] Building C object CMakeFiles/cmTC_72d45.dir/src.c.o
+[2/2] Linking C executable cmTC_72d45
+
+
+Source file was:
+int main(void) { return 0; }
+
+Determining if the function lrintf exists in the m passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-n392i1
+
+Run Build Command(s):/usr/bin/ninja cmTC_b0efd && [1/2] Building C object CMakeFiles/cmTC_b0efd.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function ‘lrintf’; expected ‘long int(float)’ [-Wbuiltin-declaration-mismatch]
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-n392i1/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-n392i1/CheckFunctionExists.c:1:1: note: ‘lrintf’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+[2/2] Linking C executable cmTC_b0efd
+
+
+
+Determining if the lrintf exist passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-SA0fIN
+
+Run Build Command(s):/usr/bin/ninja cmTC_c2a47 && [1/2] Building C object CMakeFiles/cmTC_c2a47.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c2a47
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lrintf
+  return ((int*)(&lrintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test Iconv_IS_BUILT_IN succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-zuiZZs
+
+Run Build Command(s):/usr/bin/ninja cmTC_3374c && [1/2] Building C object CMakeFiles/cmTC_3374c.dir/src.c.o
+[2/2] Linking C executable cmTC_3374c
+
+
+Source file was:
+
+      #include <stddef.h>
+      #include <iconv.h>
+      int main() {
+        char *a, *b;
+        size_t i, j;
+        iconv_t ic;
+        ic = iconv_open("to", "from");
+        iconv(ic, &a, &i, &b, &j);
+        iconv_close(ic);
+      }
+      
+
+Performing C SOURCE FILE Test DODEFINE_FORTIFY_SOURCE succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-hWSFQR
+
+Run Build Command(s):/usr/bin/ninja cmTC_6ff43 && [1/2] Building C object CMakeFiles/cmTC_6ff43.dir/src.c.o
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-hWSFQR/src.c:2:9: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+    2 |     int main()
+      |         ^~~~
+[2/2] Linking C executable cmTC_6ff43
+
+
+Source file was:
+
+    int main()
+    {
+    #ifndef _FORTIFY_SOURCE
+        return 0;
+    #else
+        this_is_an_error;
+    #endif
+    }
+
+Performing C SOURCE FILE Test HAVE_MBSTATE succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-IQGzwe
+
+Run Build Command(s):/usr/bin/ninja cmTC_c6bf7 && [1/2] Building C object CMakeFiles/cmTC_c6bf7.dir/src.c.o
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-IQGzwe/src.c:4:9: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+    4 |     int main() { return 0; }
+      |         ^~~~
+[2/2] Linking C executable cmTC_c6bf7
+
+
+Source file was:
+
+    #include <wchar.h>
+    mbstate_t x;
+    int main() { return 0; }
+
+Performing C SOURCE FILE Test DODEFINE_EXTENSIONS succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-rIaEZ8
+
+Run Build Command(s):/usr/bin/ninja cmTC_63fe9 && [1/2] Building C object CMakeFiles/cmTC_63fe9.dir/src.c.o
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-rIaEZ8/src.c:36:9: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+   36 |     int main() { return 0; }
+      |         ^~~~
+[2/2] Linking C executable cmTC_63fe9
+
+
+Source file was:
+
+    #define __EXTENSIONS__ 1
+    #include <stdio.h>
+    #ifdef HAVE_SYS_TYPES_H
+    # include <sys/types.h>
+    #endif
+    #ifdef HAVE_SYS_STAT_H
+    # include <sys/stat.h>
+    #endif
+    #ifdef STDC_HEADERS
+    # include <stdlib.h>
+    # include <stddef.h>
+    #else
+    # ifdef HAVE_STDLIB_H
+    #  include <stdlib.h>
+    # endif
+    #endif
+    #ifdef HAVE_STRING_H
+    # if !defined STDC_HEADERS && defined HAVE_MEMORY_H
+    #  include <memory.h>
+    # endif
+    # include <string.h>
+    #endif
+    #ifdef HAVE_STRINGS_H
+    # include <strings.h>
+    #endif
+    #ifdef HAVE_INTTYPES_H
+    # include <inttypes.h>
+    #endif
+    #ifdef HAVE_STDINT_H
+    # include <stdint.h>
+    #endif
+    #ifdef HAVE_UNISTD_H
+    # include <unistd.h>
+    #endif
+    int main() { return 0; }
+
+Determining if the include file byteswap.h exists passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-XlQhPe
+
+Run Build Command(s):/usr/bin/ninja cmTC_a2e48 && [1/2] Building C object CMakeFiles/cmTC_a2e48.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a2e48
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-WZu8f1
+
+Run Build Command(s):/usr/bin/ninja cmTC_352c4 && [1/2] Building C object CMakeFiles/cmTC_352c4.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_352c4
+
+
+
+Determining if the include file x86intrin.h exists passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-TLUfLK
+
+Run Build Command(s):/usr/bin/ninja cmTC_c8d2d && [1/2] Building C object CMakeFiles/cmTC_c8d2d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c8d2d
+
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-e6KQkC
+
+Run Build Command(s):/usr/bin/ninja cmTC_7ec63 && [1/2] Building C object CMakeFiles/cmTC_7ec63.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_7ec63
+
+
+
+Performing C SOURCE FILE Test HAVE_BSWAP16 succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-1fXeVZ
+
+Run Build Command(s):/usr/bin/ninja cmTC_c5477 && [1/2] Building C object CMakeFiles/cmTC_c5477.dir/src.c.o
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-1fXeVZ/src.c:1:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+    1 | int main() { return __builtin_bswap16 (0) ; }
+      |     ^~~~
+[2/2] Linking C executable cmTC_c5477
+
+
+Source file was:
+int main() { return __builtin_bswap16 (0) ; }
+
+Performing C SOURCE FILE Test HAVE_BSWAP32 succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-djp8U2
+
+Run Build Command(s):/usr/bin/ninja cmTC_88c56 && [1/2] Building C object CMakeFiles/cmTC_88c56.dir/src.c.o
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-djp8U2/src.c:1:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+    1 | int main() { return __builtin_bswap32 (0) ; }
+      |     ^~~~
+[2/2] Linking C executable cmTC_88c56
+
+
+Source file was:
+int main() { return __builtin_bswap32 (0) ; }
+
+Performing C SOURCE FILE Test HAVE_WERROR_FLAG succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-SZdqEl
+
+Run Build Command(s):/usr/bin/ninja cmTC_7cc07 && [1/2] Building C object CMakeFiles/cmTC_7cc07.dir/src.c.o
+[2/2] Linking C executable cmTC_7cc07
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_DECL_AFTER_STMT_FLAG succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-vMn187
+
+Run Build Command(s):/usr/bin/ninja cmTC_dbc51 && [1/2] Building C object CMakeFiles/cmTC_dbc51.dir/src.c.o
+[2/2] Linking C executable cmTC_dbc51
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_STACKREALIGN_FLAG succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-st191N
+
+Run Build Command(s):/usr/bin/ninja cmTC_65ace && [1/2] Building C object CMakeFiles/cmTC_65ace.dir/src.c.o
+[2/2] Linking C executable cmTC_65ace
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_WEFFCXX_FLAG succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-LosrAZ
+
+Run Build Command(s):/usr/bin/ninja cmTC_e04ac && [1/2] Building CXX object CMakeFiles/cmTC_e04ac.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_e04ac
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test HAVE_STACK_PROTECTOR_FLAG succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-hahkmu
+
+Run Build Command(s):/usr/bin/ninja cmTC_e5871 && [1/2] Building C object CMakeFiles/cmTC_e5871.dir/src.c.o
+[2/2] Linking C executable cmTC_e5871
+
+
+Source file was:
+int main(void) { return 0; }
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-VDsxkY
+
+Run Build Command(s):/usr/bin/ninja cmTC_87e51 && [1/2] Building C object CMakeFiles/cmTC_87e51.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_87e51
+
+
+
+Determining if the function lround exists passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-nFw3Xn
+
+Run Build Command(s):/usr/bin/ninja cmTC_5da13 && [1/2] Building C object CMakeFiles/cmTC_5da13.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function ‘lround’; expected ‘long int(double)’ [-Wbuiltin-declaration-mismatch]
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-nFw3Xn/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-nFw3Xn/CheckFunctionExists.c:1:1: note: ‘lround’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+[2/2] Linking C executable cmTC_5da13
+
+
+
+Looking for a ASM_NASM compiler passed with the following output:
+-- The ASM_NASM compiler identification is NASM
+-- Found assembler: /usr/bin/nasm
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/external/flac/src/libFLAC/CMakeFiles/CheckASM_NASM
+
+Checking whether the ASM_NASM compiler is NASM using "-v" matched "(NASM version)":
+NASM version 2.16.01
+Performing C++ SOURCE FILE Test HAVE_CXX_VARARRAYS succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-LZfI2W
+
+Run Build Command(s):/usr/bin/ninja cmTC_fd110 && [1/2] Building CXX object CMakeFiles/cmTC_fd110.dir/src.cxx.o
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-LZfI2W/src.cxx: In function ‘int fvla(int, int*)’:
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-LZfI2W/src.cxx:8:17: warning: ‘*D[0]’ is used uninitialized [-Wuninitialized]
+    8 |       return D[0] == c[0];
+      |              ~~~^
+[2/2] Linking CXX executable cmTC_fd110
+
+
+Source file was:
+
+    #ifdef __STDC_NO_VLA__
+    syntax error;
+    #else
+    int fvla (int m, int * c)
+    {
+      int D[m];
+      return D[0] == c[0];
+    }
+
+    int main(int, char * []) { return 0; }
+    #endif
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-gcqKNi
+
+Run Build Command(s):/usr/bin/ninja cmTC_4bc1b && [1/2] Building C object CMakeFiles/cmTC_4bc1b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4bc1b
+
+
+
+Performing C SOURCE FILE Test Intl_IS_BUILT_IN succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-TYgqqv
+
+Run Build Command(s):/usr/bin/ninja cmTC_f7f9a && [1/2] Building C object CMakeFiles/cmTC_f7f9a.dir/src.c.o
+[2/2] Linking C executable cmTC_f7f9a
+
+
+Source file was:
+#include <libintl.h>
+int main(void) {
+  gettext("");
+  dgettext("", "");
+  dcgettext("", "", 0);
+  return 0;
+}
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-iEeJEr
+
+Run Build Command(s):/usr/bin/ninja cmTC_680b2 && [1/2] Building C object CMakeFiles/cmTC_680b2.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_680b2
+
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-XR6ZcR
+
+Run Build Command(s):/usr/bin/ninja cmTC_52b24 && [1/2] Building C object CMakeFiles/cmTC_52b24.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_52b24
+
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-SCoKlx
+
+Run Build Command(s):/usr/bin/ninja cmTC_555fa && [1/2] Building C object CMakeFiles/cmTC_555fa.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_555fa
+
+
+
+Performing C SOURCE FILE Test HAVE_VISIBILITY_DEFAULT succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-wgbmDY
+
+Run Build Command(s):/usr/bin/ninja cmTC_4061b && [1/2] Building C object CMakeFiles/cmTC_4061b.dir/src.c.o
+[2/2] Linking C executable cmTC_4061b
+
+
+Source file was:
+int foo(void) __attribute__((visibility("default")));
+                             int main(void) {return 0;}
+
+Performing C SOURCE FILE Test HAVE_VISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-LjqjST
+
+Run Build Command(s):/usr/bin/ninja cmTC_05898 && [1/2] Building C object CMakeFiles/cmTC_05898.dir/src.c.o
+[2/2] Linking C executable cmTC_05898
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_NO_UNDEFINED succeeded with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-WG9dj6
+
+Run Build Command(s):/usr/bin/ninja cmTC_d4322 && [1/2] Building C object CMakeFiles/cmTC_d4322.dir/src.c.o
+[2/2] Linking C executable cmTC_d4322
+
+
+Source file was:
+int main(void) { return 0; }
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-zOXFXP
+
+Run Build Command(s):/usr/bin/ninja cmTC_4fd14 && [1/2] Building C object CMakeFiles/cmTC_4fd14.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4fd14
+
+
+
+Determining if the function sinf exists passed with the following output:
+Change Dir: /home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-Tj0MAK
+
+Run Build Command(s):/usr/bin/ninja cmTC_e7af4 && [1/2] Building C object CMakeFiles/cmTC_e7af4.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function ‘sinf’; expected ‘float(float)’ [-Wbuiltin-declaration-mismatch]
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-Tj0MAK/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/CMakeFiles/CMakeScratch/TryCompile-Tj0MAK/CheckFunctionExists.c:1:1: note: ‘sinf’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+[2/2] Linking C executable cmTC_e7af4
+
+
+

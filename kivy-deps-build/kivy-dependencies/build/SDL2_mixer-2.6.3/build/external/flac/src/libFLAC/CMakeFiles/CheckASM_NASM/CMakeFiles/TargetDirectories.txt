@@ -1,0 +1,2 @@
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/external/flac/src/libFLAC/CMakeFiles/CheckASM_NASM/CMakeFiles/edit_cache.dir
+/home/cyberEvangelist/Documents/kivy-test/kivy-deps-build/kivy-dependencies/build/SDL2_mixer-2.6.3/build/external/flac/src/libFLAC/CMakeFiles/CheckASM_NASM/CMakeFiles/rebuild_cache.dir
